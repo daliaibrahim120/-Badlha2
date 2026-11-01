@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>بدّلها | أضف شيئاً</title>
+
+</head>
+
+<body>
+
+    <header>
+<font align="center">
+        <h1>♻️ بدّلها</h1>
+
+        <h2>إضافة شيء جديد للتبادل</h2>
+
+        <nav>
+
+            <a href="login.html">الصفحه الرئيسية 🏠</a> |
+
+            <a href="items.html">الأشياء المعروضة ♻️</a> |
+
+            <a href="add-item.html">أضف شيئاً ➕</a> |
+
+            <a href="about.html">من نحن ℹ️</a>
+
+        </nav>
+</font>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <h2>أضف الشيء الذي تريد عرضه</h2>
+
+        <form>
+
+            <label>
+                اسم الشيء:
+            </label>
+
+            <br>
+
+            <input type="text"
+                   name="item_name"
+                   placeholder="كمثلاً: هاتفك">
+
+            <br><br>
+
+            <label>
+                وصف الشيء:
+            </label>
+
+            <br>
+
+            <textarea
+                name="description"
+                rows="5"
+                cols="40"
+                placeholder="اكتب وصفاً للشيء"></textarea>
+
+            <br><br>
+
+            <label>
+                حالة الشيء:
+            </label>
+
+            <br>
+
+            <select name="condition">
+
+                <option>ممتازة</option>
+
+                <option>جيدة جداً</option>
+
+                <option>جيدة</option>
+
+                <option>مقبولة</option>
+
+            </select>
+
+            <br><br>
+
+            <label>
+                نوع العرض:
+            </label>
+
+            <br>
+
+            <input type="radio"
+                   name="type"
+                   value="exchange">
+
+            تبادل
+
+            <br>
+
+            <input type="radio"
+                   name="type"
+                   value="donation">
+
+            تبرع
+
+            <br>
+
+            <input type="radio"
+                   name="type"
+                   value="recycling">
+
+            إعادة تدوير
+
+           </label>
+
+            <br>
+
+            <input type="file"
+                   name="image">
+
+            <br><br>
+
+            <label>
+
+                اسم صاحب الشيء:
+            </label>
+
+            <br>
+
+            <input type="text"
+                   name="owner"
+                   placeholder="اكتب اسمك">
+
+            <br><br>
+
+            <label>
+                رقم التواصل:
+            </label>
+
+            <br>
+
+            <input type="tel"
+                   name="phone"
+                   placeholder="رقم الهاتف">
+
+            <br><br>
+            
+            <label for="comment-email">بريدك الإلكتروني:</label>
+            <br>
+
+            <input type="email"
+                   id="comment-email"
+                   name="البريد الإلكتروني"
+                   placeholder="example@email.com"
+                   required>
+                         
+            <br><br>
+
+            <button type="submit">
+                نشر الشيء
+            </button>
+
+            <button type="reset">
+                مسح البيانات
+            </button>
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <p>
+            ♻️ شكراً لمساهمتك في إعادة الاستخدام
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
