@@ -1,0 +1,157 @@
+
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    direction: rtl;
+    background-color: #f4f7f6;
+    color: #263b3b;
+    line-height: 1.9;
+}
+
+
+header {
+    background: linear-gradient(135deg, #145c50, #238878);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 0 0 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 18px 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+nav a {
+    display: inline-block;
+    color: #145c50;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d39b35;
+}
+
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 35px auto;
+}
+
+main section {
+    background-color: white;
+    padding: 25px 30px;
+    margin-bottom: 22px;
+    border-radius: 12px;
+    border-right: 5px solid #238878;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+}
+
+main section h2 {
+    color: #145c50;
+    font-size: 23px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+main section p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+
+main section ul {
+    padding-right: 25px;
+    margin-bottom: 0;
+}
+
+main section li {
+    padding: 5px 0;
+}
+
+
+main section a {
+    display: inline-block;
+    background-color: #238878;
+    color: white;
+    text-decoration: none;
+    padding: 9px 20px;
+    border-radius: 7px;
+    margin: 8px 0;
+    transition: 0.3s;
+}
+
+main section a:hover {
+    background-color: #145c50;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #e4eae8;
+    margin: 0;
+}
+
+
+footer {
+    background-color: #123f38;
+    color: white;
+    text-align: center;
+    padding: 22px 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    main {
+        width: 94%;
+        margin: 20px auto;
+    }
+
+    main section {
+        padding: 18px;
+    }
+
+    main section h2 {
+        font-size: 20px;
+    }
+}
